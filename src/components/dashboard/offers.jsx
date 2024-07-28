@@ -1,5 +1,5 @@
-export function ShowUsers () {
-    return <main id="main" className="main">
+export function OffersList() {
+  return <main id="main" className="main">
 
     <div className="pagetitle">
       <nav>
@@ -17,7 +17,7 @@ export function ShowUsers () {
 
           <div className="card">
             <div className="card-body">
-              <h5 className="card-title">Users</h5>
+              <h5 className="card-title">Offres</h5>
 
               <table className="table datatable">
                 <thead>
@@ -38,9 +38,8 @@ export function ShowUsers () {
                     <td>Bargagli</td>
                     <td>2001/09/01</td>
                     <td className="d-flex justify-content-evenly">
-                        <button className="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#verticalycentered"><i className="bi bi-arrow-clockwise"></i></button>
-                        <button className="btn btn-outline-warning" data-bs-toggle="modal" data-bs-target="#verticalycentered-update"><i className="bi bi-battery-half"></i></button>
-                        <button className="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#verticalycentered-delete"><i className="bi bi-trash"></i></button>
+                      <button className="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#verticalycentered"><i className="bi bi-eye"></i></button>
+                      <button className="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#verticalycentered-delete"><i className="bi bi-trash"></i></button>
                     </td>
                   </tr>
                   <tr>
@@ -49,9 +48,8 @@ export function ShowUsers () {
                     <td>Sherborne</td>
                     <td>2015/07/12</td>
                     <td className="d-flex justify-content-evenly">
-                        <button className="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#verticalycentered"><i className="bi bi-arrow-clockwise"></i></button>
-                        <button className="btn btn-outline-warning" data-bs-toggle="modal" data-bs-target="#verticalycentered-update"><i className="bi bi-battery-half"></i></button>
-                        <button className="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#verticalycentered-delete"><i className="bi bi-trash"></i></button>
+                      <button className="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#verticalycentered"><i className="bi bi-eye"></i></button>
+                      <button className="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#verticalycentered-delete"><i className="bi bi-trash"></i></button>
                     </td>
                   </tr>
                   <tr>
@@ -60,9 +58,8 @@ export function ShowUsers () {
                     <td>Wah</td>
                     <td>1998/06/09</td>
                     <td className="d-flex justify-content-evenly">
-                        <button className="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#verticalycentered"><i className="bi bi-arrow-clockwise"></i></button>
-                        <button className="btn btn-outline-warning" data-bs-toggle="modal" data-bs-target="#verticalycentered-update"><i className="bi bi-battery-half"></i></button>
-                        <button className="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#verticalycentered-delete"><i className="bi bi-trash"></i></button>
+                      <button className="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#verticalycentered"><i className="bi bi-eye"></i></button>
+                      <button className="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#verticalycentered-delete"><i className="bi bi-trash"></i></button>
                     </td>
                   </tr>
                   <tr>
@@ -71,9 +68,8 @@ export function ShowUsers () {
                     <td>Metz</td>
                     <td>2011/12/11</td>
                     <td className="d-flex justify-content-evenly">
-                        <button className="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#verticalycentered"><i className="bi bi-arrow-clockwise"></i></button>
-                        <button className="btn btn-outline-warning" data-bs-toggle="modal" data-bs-target="#verticalycentered-update"><i className="bi bi-battery-half"></i></button>
-                        <button className="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#verticalycentered-delete"><i className="bi bi-trash"></i></button>
+                      <button className="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#verticalycentered"><i className="bi bi-eye"></i></button>
+                      <button className="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#verticalycentered-delete"><i className="bi bi-trash"></i></button>
                     </td>
                   </tr>
                   <tr>
@@ -82,9 +78,8 @@ export function ShowUsers () {
                     <td>Strathcona County</td>
                     <td>2002/25/01</td>
                     <td className="d-flex justify-content-evenly">
-                        <button className="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#verticalycentered"><i className="bi bi-arrow-clockwise"></i></button>
-                        <button className="btn btn-outline-warning" data-bs-toggle="modal" data-bs-target="#verticalycentered-update"><i className="bi bi-battery-half"></i></button>
-                        <button className="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#verticalycentered-delete"><i className="bi bi-trash"></i></button>
+                      <button className="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#verticalycentered"><i className="bi bi-eye"></i></button>
+                      <button className="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#verticalycentered-delete"><i className="bi bi-trash"></i></button>
                     </td>
                   </tr>
                   <tr>
@@ -93,9 +88,8 @@ export function ShowUsers () {
                     <td>Fontaine-Valmont</td>
                     <td>1999/02/07</td>
                     <td className="d-flex justify-content-evenly">
-                        <button className="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#verticalycentered"><i className="bi bi-arrow-clockwise"></i></button>
-                        <button className="btn btn-outline-warning" data-bs-toggle="modal" data-bs-target="#verticalycentered-update"><i className="bi bi-battery-half"></i></button>
-                        <button className="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#verticalycentered-delete"><i className="bi bi-trash"></i></button>
+                      <button className="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#verticalycentered"><i className="bi bi-eye"></i></button>
+                      <button className="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#verticalycentered-delete"><i className="bi bi-trash"></i></button>
                     </td>
                   </tr>
                   <tr>
@@ -104,9 +98,8 @@ export function ShowUsers () {
                     <td>Quenast</td>
                     <td>1998/07/07</td>
                     <td className="d-flex justify-content-evenly">
-                        <button className="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#verticalycentered"><i className="bi bi-arrow-clockwise"></i></button>
-                        <button className="btn btn-outline-warning" data-bs-toggle="modal" data-bs-target="#verticalycentered-update"><i className="bi bi-battery-half"></i></button>
-                        <button className="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#verticalycentered-delete"><i className="bi bi-trash"></i></button>
+                      <button className="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#verticalycentered"><i className="bi bi-eye"></i></button>
+                      <button className="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#verticalycentered-delete"><i className="bi bi-trash"></i></button>
                     </td>
                   </tr>
                   <tr>
@@ -115,12 +108,11 @@ export function ShowUsers () {
                     <td>Rodez</td>
                     <td>2012/02/10</td>
                     <td className="d-flex justify-content-evenly">
-                        <button className="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#verticalycentered"><i className="bi bi-arrow-clockwise"></i></button>
-                        <button className="btn btn-outline-warning" data-bs-toggle="modal" data-bs-target="#verticalycentered-update"><i className="bi bi-battery-half"></i></button>
-                        <button className="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#verticalycentered-delete"><i className="bi bi-trash"></i></button>
+                      <button className="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#verticalycentered"><i className="bi bi-eye"></i></button>
+                      <button className="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#verticalycentered-delete"><i className="bi bi-trash"></i></button>
                     </td>
                   </tr>
-                  
+
                 </tbody>
               </table>
 
@@ -149,34 +141,11 @@ export function ShowUsers () {
 
               <div class="">
                 <div class="card-body">
-                  <div class="modal fade" id="verticalycentered-update" tabindex="-1">
-                    <div class="modal-dialog modal-dialog-centered">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h5 class="modal-title">Vertically Centered</h5>
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                          Non omnis incidunt qui sed occaecati magni asperiores est mollitia. Soluta at et reprehenderit. Placeat autem numquam et fuga numquam. Tempora in facere consequatur sit dolor ipsum. Consequatur nemo amet incidunt est facilis. Dolorem neque recusandae quo sit molestias sint dignissimos.
-                        </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                          <button type="button" class="btn btn-outline-warning">Modifier</button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-
-              <div class="">
-                <div class="card-body">
                   <div class="modal fade" id="verticalycentered-delete" tabindex="-1">
                     <div class="modal-dialog modal-dialog-centered">
                       <div class="modal-content">
                         <div class="modal-header">
-                          <h5 class="modal-title">Supprimer un utilisateur</h5>
+                          <h5 class="modal-title">Supprimer directement une offre</h5>
                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">

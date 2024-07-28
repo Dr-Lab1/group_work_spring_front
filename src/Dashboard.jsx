@@ -7,6 +7,7 @@ import { Profil } from './components/dashboard/user-profil'
 import { Faq } from './components/dashboard/faq'
 import { Contact } from './components/dashboard/contact'
 import { ShowUsers } from './components/dashboard/users'
+import { OffersList } from './components/dashboard/offers'
 
 
 
@@ -20,7 +21,8 @@ function Dashboard() {
       <Profil /> 
       <Faq /> 
       <Contact /> */}
-      <ShowUsers />
+      <ShowUsers /> 
+      <OffersList />
       <Footer />
 
     </div>
