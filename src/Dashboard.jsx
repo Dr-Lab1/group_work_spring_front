@@ -3,6 +3,8 @@ import { SideBar } from './components/dashboard/layouts/sidebar'
 import { Home } from './components/dashboard/home'
 import { Footer } from './components/dashboard/layouts/footer'
 import { Header } from './components/dashboard/layouts/header'
+import { Profil } from './components/dashboard/user-profil'
+import { Faq } from './components/dashboard/faq'
 
 
 
@@ -12,12 +14,13 @@ function Dashboard() {
 
       <Header />
       <SideBar />
-      <Home />
+      {/* <Home />
+      <Profil /> */}
+      {/* <Faq /> */}
       <Footer />
 
     </div>
 
-  // return "Hello World"
 }
 
 export default Dashboard
