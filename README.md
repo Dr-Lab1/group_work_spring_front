@@ -22,6 +22,7 @@
 
  6. Offres
         <img width="1436" alt="Screenshot 2024-07-28 at 15 01 04" src="https://github.com/user-attachments/assets/7caa5214-654b-4f4d-a126-a89863362a0f">
+        <img width="1436" alt="Screenshot 2024-07-28 at 15 01 32" src="https://github.com/user-attachments/assets/9242fd5f-f026-4ac4-9cd9-0919c4f45b96">
 
 
 # How to run it 
