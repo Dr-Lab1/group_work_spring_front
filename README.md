@@ -20,6 +20,9 @@
         <img width="1436" alt="Screenshot 2024-07-28 at 14 55 23" src="https://github.com/user-attachments/assets/d3458e2f-9180-4422-82bf-2777fc80c6e9">
         <img width="1436" alt="Screenshot 2024-07-28 at 14 55 57" src="https://github.com/user-attachments/assets/7b73bff0-4e2e-430f-8385-2805c0a9b340">
 
+ 6. Offres
+
+
 # How to run it 
 
 1. Clone the project
