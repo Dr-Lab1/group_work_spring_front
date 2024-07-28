@@ -5,7 +5,7 @@ export function Login() {
     return <section class="section register min-vh-100 d-flex flex-column align-items-center justify-content-center py-4">
                 <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-lg-4 col-md-6 d-flex flex-column align-items-center justify-content-center">
+                    <div class="col-lg-5 col-md-6 d-flex flex-column align-items-center justify-content-center">
 
                     <Logo />
 
@@ -44,7 +44,7 @@ export function Login() {
                             </div>
                             </div>
                             <div class="col-12">
-                            <button class="btn btn-primary w-100" type="submit">Se connecter</button>
+                            <button class="btn btn-outline-primary w-100" type="submit">Se connecter</button>
                             </div>
                             <div class="col-12">
                             <p class="small mb-0">Vous n'avez pas de compte ? <a >Créer un compte</a></p>
