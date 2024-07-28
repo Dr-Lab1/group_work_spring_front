@@ -1,8 +1,8 @@
 import { useState } from 'react'
-import { SideBar } from './components/dashboard/sidebar'
+import { SideBar } from './components/dashboard/layouts/sidebar'
 import { Home } from './components/dashboard/home'
-import { Footer } from './components/dashboard/footer'
-import { Header } from './components/dashboard/header'
+import { Footer } from './components/dashboard/layouts/footer'
+import { Header } from './components/dashboard/layouts/header'
 
 
 
@@ -13,7 +13,7 @@ function Dashboard() {
       <Header />
       <SideBar />
       <Home />
-      {/* <Footer /> */}
+      <Footer />
 
     </div>
 
