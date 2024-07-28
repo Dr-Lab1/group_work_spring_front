@@ -5,6 +5,7 @@ import { Footer } from './components/dashboard/layouts/footer'
 import { Header } from './components/dashboard/layouts/header'
 import { Profil } from './components/dashboard/user-profil'
 import { Faq } from './components/dashboard/faq'
+import { Contact } from './components/dashboard/contact'
 
 
 
@@ -17,6 +18,7 @@ function Dashboard() {
       {/* <Home />
       <Profil /> */}
       {/* <Faq /> */}
+      <Contact />
       <Footer />
 
     </div>
