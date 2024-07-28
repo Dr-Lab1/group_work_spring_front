@@ -8,7 +8,7 @@
 
 1. Clone the project
 
-        git clone [https://github.com/Dr-Lab1/react-products-list-project.git](https://github.com/Dr-Lab1/group_work_spring_front.git)
+        git clone https://github.com/Dr-Lab1/group_work_spring_front.git
    
 2. Install Packages
 
