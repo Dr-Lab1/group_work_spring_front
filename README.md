@@ -5,6 +5,9 @@
  1. Home
         <img width="1436" alt="Screenshot 2024-07-28 at 14 38 50" src="https://github.com/user-attachments/assets/231ac016-0372-4a52-a06f-14010a6934bd">
 
+ 2. Profil
+        <img width="1436" alt="Screenshot 2024-07-28 at 14 40 44" src="https://github.com/user-attachments/assets/8966d454-ba03-47a8-9733-fd097cc050a6">
+
 # How to run it 
 
 1. Clone the project
