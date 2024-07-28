@@ -1,8 +1,19 @@
-# React + Vite
+# React + Spring Project      
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Results 
 
-Currently, two official plugins are available:
+<img width="1470" alt="Capture d’écran 2024-07-07 à 15 44 40" src="https://github.com/Dr-Lab1/react-products-list-project/assets/96502938/555c672d-8ab2-4eea-b7c5-f61d348211c3">
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# How to run it 
+
+1. Clone the project
+
+        git clone https://github.com/Dr-Lab1/react-products-list-project.git
+   
+2. Install Packages
+
+        npm install
+   
+3. Run the project
+
+        npm run dev
