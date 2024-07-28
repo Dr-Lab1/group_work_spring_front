@@ -17,11 +17,11 @@ function Dashboard() {
 
       <Header />
       <SideBar />
-      {/* <Home />
-      <Profil /> 
-      <Faq /> 
-      <Contact /> 
-      <ShowUsers /> */}
+      {/* <Home /> */}
+      {/* <Profil />  */}
+      {/* <Faq />  */}
+      {/* <Contact />  */}
+      {/* <ShowUsers />  */}
       <OffersList />
       <Footer />
 
