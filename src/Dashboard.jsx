@@ -20,8 +20,8 @@ function Dashboard() {
       {/* <Home />
       <Profil /> 
       <Faq /> 
-      <Contact /> */}
-      <ShowUsers /> 
+      <Contact /> 
+      <ShowUsers /> */}
       <OffersList />
       <Footer />
 
