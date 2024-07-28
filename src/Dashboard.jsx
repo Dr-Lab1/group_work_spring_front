@@ -6,6 +6,7 @@ import { Header } from './components/dashboard/layouts/header'
 import { Profil } from './components/dashboard/user-profil'
 import { Faq } from './components/dashboard/faq'
 import { Contact } from './components/dashboard/contact'
+import { ShowUsers } from './components/dashboard/users'
 
 
 
@@ -16,9 +17,10 @@ function Dashboard() {
       <Header />
       <SideBar />
       {/* <Home />
-      <Profil /> */}
-      {/* <Faq /> */}
-      <Contact />
+      <Profil /> 
+      <Faq /> 
+      <Contact /> */}
+      <ShowUsers />
       <Footer />
 
     </div>
