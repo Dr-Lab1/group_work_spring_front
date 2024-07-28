@@ -43,7 +43,6 @@ export function Home(){
                     <div class="ps-3">
                       <h6>145</h6>
                       <span class="text-success small pt-1 fw-bold">12%</span> <span class="text-muted small pt-2 ps-1">increase</span>
-
                     </div>
                   </div>
                 </div>
@@ -137,12 +136,12 @@ export function Home(){
                   </ul>
                 </div>
 
-                <div class="card-body">
+                {/* <div class="card-body">
                   <h5 class="card-title">Reports <span>/Today</span></h5>
 
                   <div id="reportsChart"></div>
 
-                  {/* <script>
+                  <script>
                     document.addEventListener("DOMContentLoaded", () => {
                       new ApexCharts(document.querySelector("#reportsChart"), {
                         series: [{
@@ -193,9 +192,9 @@ export function Home(){
                         }
                       }).render();
                     });
-                  </script> */}
+                  </script>
 
-                </div>
+                </div> */}
 
               </div>
             </div>
@@ -437,12 +436,12 @@ export function Home(){
               </ul>
             </div>
 
-            <div class="card-body pb-0">
+            {/* <div class="card-body pb-0">
               <h5 class="card-title">Budget Report <span>| This Month</span></h5>
 
               <div id="budgetChart" style="min-height: 400px;" class="echart"></div>
 
-              {/* <script>
+              <script>
                 document.addEventListener("DOMContentLoaded", () => {
                   var budgetChart = echarts.init(document.querySelector("#budgetChart")).setOption({
                     legend: {
@@ -491,9 +490,9 @@ export function Home(){
                     }]
                   });
                 });
-              </script> */}
+              </script>
 
-            </div>
+            </div> */}
           </div>
 
           <div class="card">
@@ -510,12 +509,12 @@ export function Home(){
               </ul>
             </div>
 
-            <div class="card-body pb-0">
+            {/* <div class="card-body pb-0">
               <h5 class="card-title">Website Traffic <span>| Today</span></h5>
 
               <div id="trafficChart" style="min-height: 400px;" class="echart"></div>
 
-              {/* <script>
+              <script>
                 document.addEventListener("DOMContentLoaded", () => {
                   echarts.init(document.querySelector("#trafficChart")).setOption({
                     tooltip: {
@@ -568,9 +567,9 @@ export function Home(){
                     }]
                   });
                 });
-              </script> */}
+              </script>
 
-            </div>
+            </div> */}
           </div>
 
           <div class="card">

@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { sideBar } from './components/dashboard/sidebar'
+import { SideBar } from './components/dashboard/sidebar'
 import { Home } from './components/dashboard/home'
 import { Footer } from './components/dashboard/footer'
 import { Header } from './components/dashboard/header'
@@ -11,9 +11,9 @@ function Dashboard() {
   return <div >
 
       <Header />
-      <sideBar />
-      {/* <Home />
-      <Footer /> */}
+      <SideBar />
+      <Home />
+      {/* <Footer /> */}
 
     </div>
 
