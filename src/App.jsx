@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Login } from './components/user/login'
+import { Register } from './components/user/register'
 
 
 
@@ -8,7 +9,9 @@ function App() {
   return <main>
     <div class="container">
 
-      <Login />
+      {/* <Login /> */}
+
+      <Register />
 
     </div>
   </main>

@@ -1,15 +1,13 @@
+import { Footer } from "./footer";
+import { Logo } from "./logo";
+
 export function Login() {
     return <section class="section register min-vh-100 d-flex flex-column align-items-center justify-content-center py-4">
                 <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-4 col-md-6 d-flex flex-column align-items-center justify-content-center">
 
-                    <div className="d-flex justify-content-center py-4 col-2">
-                        <a className="logo d-flex align-items-center w-auto">
-                        <img src="https://www.labyrinthe-rdc.com/assets/img/logo/logo-without-name/labyrinthe-logo-without-name-green-orange.png" 
-                            alt="" className="img-thumbnail" />
-                        </a>
-                    </div>
+                    <Logo />
 
                     <div class="card mb-3">
 
@@ -56,9 +54,7 @@ export function Login() {
                         </div>
                     </div>
 
-                    <div class="credits">
-                        Designed by <a href="">Bas Mastas</a>
-                    </div>
+                    <Footer />
 
                     </div>
                 </div>
