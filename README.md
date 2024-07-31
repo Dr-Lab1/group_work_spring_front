@@ -25,6 +25,11 @@
         <img width="1436" alt="Screenshot 2024-07-28 at 15 01 32" src="https://github.com/user-attachments/assets/9242fd5f-f026-4ac4-9cd9-0919c4f45b96">
         <img width="1436" alt="Screenshot 2024-07-28 at 15 03 09" src="https://github.com/user-attachments/assets/94615311-1fe6-4f78-b9ba-ceeee6543b57">
 
+ 7. Login
+        <img width="1436" alt="Screenshot 2024-07-31 at 13 28 11" src="https://github.com/user-attachments/assets/e9e20bed-54bb-49f6-994d-df34a6ee5421">
+
+ 8. Register
+        <img width="1436" alt="Screenshot 2024-07-31 at 13 27 53" src="https://github.com/user-attachments/assets/6201cfda-e094-4ecc-bf8d-ad9c5d7e20de">
 
 
 # How to run it 
