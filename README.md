@@ -28,7 +28,9 @@
  7. Login
         <img width="1436" alt="Screenshot 2024-07-31 at 13 28 11" src="https://github.com/user-attachments/assets/e9e20bed-54bb-49f6-994d-df34a6ee5421">
 
- 8. 
+ 8. Register
+        <img width="1436" alt="Screenshot 2024-07-31 at 13 27 53" src="https://github.com/user-attachments/assets/6201cfda-e094-4ecc-bf8d-ad9c5d7e20de">
+
 
 # How to run it 
 
