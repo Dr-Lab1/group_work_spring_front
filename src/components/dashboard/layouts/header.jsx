@@ -215,7 +215,7 @@ export function Header() {
                         </li>
 
                         <li>
-                            <Link to={'login'} className="dropdown-item d-flex align-items-center" href="#">
+                            <Link to={'/login'} className="dropdown-item d-flex align-items-center" href="#">
                                 <i className="bi bi-box-arrow-right"></i>
                                 <span>Sign Out</span>
                             </Link>
