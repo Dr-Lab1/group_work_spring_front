@@ -18,17 +18,14 @@ const router = createBrowserRouter([
 
 function App() {
 
-  // return <main>
-  //   <div class="container">
+  return <main>
+    <div class="container">
 
-  //     <Login />
+      <RouterProvider router={router} />
 
-  //     {/* <Register /> */}
+    </div>
+  </main>
 
-  //   </div>
-  // </main>
-
-  return <RouterProvider router={router} />
 }
 
 export default App

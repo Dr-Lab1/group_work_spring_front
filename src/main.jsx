@@ -5,7 +5,7 @@ import Dashboard from './Dashboard.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
-    {/* <Dashboard /> */}
+    {/* <App /> */}
+    <Dashboard />
   </React.StrictMode>,
 )
