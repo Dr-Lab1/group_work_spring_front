@@ -11,6 +11,7 @@ import { OffersList } from './components/dashboard/offers'
 import { Header } from './components/dashboard/layouts/header'
 import { SideBar } from './components/dashboard/layouts/sidebar'
 import { Footer } from './components/user/footer'
+import { Error404 } from './components/components/404'
 
 
 const router = createBrowserRouter([
@@ -25,7 +26,12 @@ const router = createBrowserRouter([
       {
         path: '/register',
         element: <Register />
-      }]
+      },
+      {
+        path: '*',
+        element: <Error404 />
+      }
+    ]
   },
   {
     path: "/dashboard",
