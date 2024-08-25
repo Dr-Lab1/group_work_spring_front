@@ -1,3 +1,5 @@
+import { Link, NavLink } from "react-router-dom";
+
 export function Header() {
     return <header id="header" className="header fixed-top d-flex align-items-center">
 
@@ -183,40 +185,40 @@ export function Header() {
                         </li>
 
                         <li>
-                            <a className="dropdown-item d-flex align-items-center" href="users-profile.html">
+                            <NavLink to={'profil'} className="dropdown-item d-flex align-items-center">
                                 <i className="bi bi-person"></i>
                                 <span>My Profile</span>
-                            </a>
+                            </NavLink>
                         </li>
                         <li>
                             <hr className="dropdown-divider" />
                         </li>
 
                         <li>
-                            <a className="dropdown-item d-flex align-items-center" href="users-profile.html">
+                            <NavLink to={'profil'} className="dropdown-item d-flex align-items-center">
                                 <i className="bi bi-gear"></i>
                                 <span>Account Settings</span>
-                            </a>
+                            </NavLink>
                         </li>
                         <li>
                             <hr className="dropdown-divider" />
                         </li>
 
                         <li>
-                            <a className="dropdown-item d-flex align-items-center" href="pages-faq.html">
+                            <NavLink to={'faq'} className="dropdown-item d-flex align-items-center">
                                 <i className="bi bi-question-circle"></i>
                                 <span>Need Help?</span>
-                            </a>
+                            </NavLink>
                         </li>
                         <li>
                             <hr className="dropdown-divider" />
                         </li>
 
                         <li>
-                            <a className="dropdown-item d-flex align-items-center" href="#">
+                            <Link to={'login'} className="dropdown-item d-flex align-items-center" href="#">
                                 <i className="bi bi-box-arrow-right"></i>
                                 <span>Sign Out</span>
-                            </a>
+                            </Link>
                         </li>
 
                     </ul>
