@@ -11,84 +11,53 @@ import { OffersList } from './components/dashboard/offers'
 import { createBrowserRouter, Outlet, RouterProvider } from 'react-router-dom'
 
 
-
-// const router = createBrowserRouter([
-//   {
-//     path: "/",
-//     element: <Home />
-//   },
-//   {
-//     path: "/profil",
-//     element: <Profil />
-//   },
-//   {
-//     path: "/faq",
-//     element: <Faq />
-//   },
-//   {
-//     path: "/contact",
-//     element: <Contact />
-//   },
-//   {
-//     path: "/users",
-//     element: <ShowUsers />
-//   },
-//   {
-//     path: "/lists",
-//     element: <OffersList />
-//   },
-// ])
-
 const router = createBrowserRouter([
   {
-    path:"/dashboard",
-    element: <Dashboard/>,
+    path: "/dashboard",
+    element: <Structure />,
     children: [
       {
-            path: "",
-            element: <Home />
-          },
-          {
-            path: "profil",
-            element: <Profil />
-          },
-          {
-            path: "faq",
-            element: <Faq />
-          },
-          {
-            path: "contact",
-            element: <Contact />
-          },
-          {
-            path: "users",
-            element: <ShowUsers />
-          },
-          {
-            path: "lists",
-            element: <OffersList />
-          },
+        path: "home",
+        element: <Home />
+      },
+      {
+        path: "profil",
+        element: <Profil />
+      },
+      {
+        path: "faq",
+        element: <Faq />
+      },
+      {
+        path: "contact",
+        element: <Contact />
+      },
+      {
+        path: "users",
+        element: <ShowUsers />
+      },
+      {
+        path: "lists",
+        element: <OffersList />
+      },
     ]
   }
 ])
 
-function Dashboard() {
-
+function Structure() {
   return <div >
 
-      <Header />
-      <SideBar />
-      {/* <RouterProvider router={router} /> */}
-      <Outlet />
-      {/* <Home /> */}
-      {/* <Profil />  */}
-      {/* <Faq />  */}
-      {/* <Contact />  */}
-      {/* <ShowUsers />  */}
-      {/* <OffersList /> */}
-      <Footer />
+    <Header />
+    <SideBar />
+    <Outlet />
+    <Footer />
 
-    </div>
+  </div>
+}
+
+function Dashboard() {
+
+  return <RouterProvider router={router} /> 
 
 }
 
