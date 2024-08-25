@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Footer } from "./footer";
 import { Logo } from "./logo";
 
@@ -47,7 +48,7 @@ export function Login() {
                                     <button class="btn btn-outline-primary w-100" type="submit">Se connecter</button>
                                 </div>
                                 <div class="col-12">
-                                    <p class="small mb-0">Vous n'avez pas de compte ? <a >Créer un compte</a></p>
+                                    <p class="small mb-0">Vous n'avez pas de compte ? <Link to={'/register'}>Créer un compte</Link></p>
                                 </div>
                             </form>
 

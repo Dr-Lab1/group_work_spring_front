@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Footer } from "./footer";
 import { Logo } from "./logo";
 
@@ -65,7 +66,7 @@ export function Register() {
                   <button class="btn btn-outline-primary w-100" type="submit">S'enregistrer</button>
                 </div>
                 <div class="col-12">
-                  <p class="small mb-0">Vous avez déjà un compte ? <a href="">Se connecter</a></p>
+                  <p class="small mb-0">Vous avez déjà un compte ? <Link to={'/login'}>Se connecter</Link></p>
                 </div>
               </form>
 
