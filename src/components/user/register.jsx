@@ -8,7 +8,7 @@ export function Register() {
       <div class="row justify-content-center">
         <div class="col-lg-5 col-md-6 d-flex flex-column align-items-center justify-content-center">
 
-          <Logo /> 
+          <Logo />  
 
           <div class="card mb-3">
 
