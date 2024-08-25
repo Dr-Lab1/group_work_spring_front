@@ -32,7 +32,7 @@ const router = createBrowserRouter([
     element: <Dashboard />,
     children: [
       {
-        path: "home",
+        path: "",
         element: <Home />
       },
       {
@@ -82,13 +82,7 @@ function Dashboard() {
 
 function App() {
 
-  return <main>
-    <div className="container">
-
-      <RouterProvider router={router} />
-
-    </div>
-  </main>
+  return <RouterProvider router={router} />
 
 }
 

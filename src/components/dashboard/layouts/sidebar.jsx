@@ -1,13 +1,15 @@
+import { Link, NavLink } from "react-router-dom";
+
 export function SideBar() {
     return <aside id="sidebar" className="sidebar">
 
         <ul className="sidebar-nav" id="sidebar-nav">
 
             <li className="nav-item">
-                <a className="nav-link " href="">
+                <NavLink to={''} className="nav-link ">
                     <i className="bi bi-grid"></i>
                     <span>Dashboard</span>
-                </a>
+                </NavLink>
             </li>
 
             <li className="nav-item">
@@ -119,24 +121,24 @@ export function SideBar() {
             <li className="nav-heading">Pages</li>
 
             <li className="nav-item">
-                <a className="nav-link collapsed" href="users-profile.html">
+                <NavLink to={'profil'} className="nav-link collapsed">
                     <i className="bi bi-person"></i>
                     <span>Profile</span>
-                </a>
+                </NavLink>
             </li>
 
             <li className="nav-item">
-                <a className="nav-link collapsed" href="pages-faq.html">
+                <NavLink to={'faq'} className="nav-link collapsed">
                     <i className="bi bi-question-circle"></i>
                     <span>F.A.Q</span>
-                </a>
+                </NavLink>
             </li>
 
             <li className="nav-item">
-                <a className="nav-link collapsed" href="pages-contact.html">
+                <NavLink to={'contact'} className="nav-link collapsed" href="pages-contact.html">
                     <i className="bi bi-envelope"></i>
                     <span>Contact</span>
-                </a>
+                </NavLink>
             </li>
 
         </ul>
